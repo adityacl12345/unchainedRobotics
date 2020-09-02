@@ -9,7 +9,7 @@ Angular Cli
 
 ## Steps
 
-Git clone
-npm install
-ng serve --open
+1. Git clone
+2. npm install
+3. ng serve --open
 
