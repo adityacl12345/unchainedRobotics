@@ -1,0 +1,26 @@
+<section id="main">
+    <div class="container">
+        <div class="inner">
+            <div id="pallete">
+                <app-boxcomponent *ngFor = "let box of boxes; let i = index" 
+                [boxid]="i"
+                [xcord]="box.xcord"
+                [ycord]="box.ycord"
+                [turns]="box.rotate">
+                </app-boxcomponent>
+            </div>
+            <div class="box-coords">
+                <div class="btn btn-primary" (click)="addBox()">
+                    Add Box
+                </div>
+                <hr>
+                <div class="coords-space">
+                   
+                    <div class="box-details" *ngFor = "let box of boxes">
+                         x: {{ box.xcord + 50 }} , y: {{ box.ycord + 75 }}, r: {{ box.rotate }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,13 @@
+<div class="box"
+ cdkDrag 
+ cdkDragBoundary="#pallete" 
+ (cdkDragEnded)="onDragEnded($event)"
+ [ngStyle]="getRotation">
+    <div class="content" [ngStyle]="getNoRotation">
+        <div class="text">
+            {{ xcord + 50 }} , 
+            {{ ycord + 75 }}
+        </div>
+        <button class="rotate" (click)="onRotate($event)"></button>
+    </div>
+</div>

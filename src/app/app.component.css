@@ -1,0 +1,19 @@
+#main {
+    margin-top: 50px;
+}
+.inner {
+    display: flex;
+}
+#pallete {
+    width: 500px;
+    background: lightgrey;
+    height: 750px;
+    position: relative;
+}
+.box-coords {
+    width: calc(100%-500px);
+    margin-top: 30px;
+    text-align: center;
+    padding: 0 15px;
+    margin-left: 20px;
+}

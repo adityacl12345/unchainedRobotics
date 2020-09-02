@@ -1,0 +1,26 @@
+.box {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: slategray;
+    
+}
+.content {
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    left: 0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: none;
+}
+.rotate {
+    background: white url(../../assets/refresh.svg) center top/contain;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
